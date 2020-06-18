@@ -30,7 +30,7 @@ header nav label {
 }
 
 header nav img {
-    height: 25px;
+    height: 20px;
     margin-left: 3%;
 }
 
@@ -78,6 +78,12 @@ header nav ul li a{
 
 @media (max-width: 750px) {
 
+    header {
+        height: auto;
+        max-height: none;
+        min-height: 800px;
+    }
+
     header nav ul {
         margin-top: 10px;
         float: none;
@@ -123,9 +129,15 @@ header nav ul li a{
         background-color: rgb(220, 220, 220);
     }
 
+    header .frame {
+        display: flex;
+        justify-content: center;
+    }
+
     .header-text {
-        margin-top: 20px;
+        margin: 20px 70px 0 70px;
         text-align: center;
+        float: none;
     }
 
 }
